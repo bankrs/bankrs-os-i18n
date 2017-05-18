@@ -1,2 +1,201 @@
 errors:
-  foo: bar
+  connector_access_already_exists:   Bank access already added
+  connector_account_does_not_support_account_balance_request: The bank access you are trying to add has no supported bank accounts at this time
+  connector_cant_be_empty:           Please complete all fields in the form
+  connector_could_not_connect:       Your bank is not responding at the moment. Please try again later or contact support if the problem persists
+  connector_field_reset:             The PIN authentication was unfortunately incorrect. Please enter your online banking PIN again
+  connector_internal:                Unable to process request
+  connector_no_tan_method_available: Your bank did not provide any supported TAN method for this transaction. Please log into your online banking and ensure that you have TAN methods set up. \n\nIf the problem persists, please contact our support team
+  connector_sepa_abroad_not_allowed: Due to restrictions by your bank no international transactions can be made from this bank account
+  connector_ssl_certificate_is_not_valid: Your bank is currently experiencing technical difficulties. Please try again later
+  connector_statement_request_not_available: This bank account does not support the operation
+  connector_unknown:                 Unable to process request
+  fi_account_blocked_gv:             Vorläufige Sperre liegt vor. Entsperren mit GV 'PIN-Sperre aufheben' möglich
+  fi_account_blocked_signature:      "Der Online Service ist gesperrt. Bitte wenden Sie sich an Ihre Bank. Ungültige Auftragsnachricht: Ungültige Signatur."
+  fi_account_blocked_tan_enable:     Zugang gesperrt. Freischaltung mit TAN erforderlich
+  fi_account_blocked_tel_ing_diba:   "Zugang ist gesperrt. Tel. Entsperrung: 069 / 34 22 24 (nur mit Telebanking PIN)."
+  fi_account_blocked:                Ihr Zugang ist gesperrt. Bitte informieren Sie Ihren Berater
+  fi_account_deactivated:            Dieser Account ist deaktiviert
+  fi_accountnumber_10_digits_pin_between_5_to_10: Anmeldung nur mit 10-stelliger Kontonummer und 5 bis 10-stelliger PIN möglich
+  fi_accountnumber_must_10:          Die Kontonummer muss immer 10-stellig eingegeben werden
+  fi_activate_mobile_tan:            Das mobileTAN-Verfahren ist noch nicht nutzbar, da die Aktivierung nicht abgeschlossen ist. Bitte aktivieren Sie das mobileTAN-Verfahren in der TAN-Verwaltung. Der zur Aktivierung benötigte Aktivierungsbrief wurde Ihnen kürzlich zugesandt bzw. befindet sich gerade auf dem Postweg
+  fi_activate_new_tan_list:          Für Sie wurde eine neue TAN-Liste erstellt
+  fi_active_tan_list_telebanking_pin: "Aktivierung Ihrer TAN-Liste: 069 / 34 22 24 (nur mit Telebanking PIN). (9010)"
+  fi_amount_over_limit_increase_finanzsoftware: Betrag über Limit. Erhöhen Sie im Internetbanking das \"Limit für Finanzsoftware\"
+  fi_amount_too_high:                Leider können wir die Ueberweisung in dieser Höhe nicht annehmen
+  fi_at_least_5:                     Verarbeitung nicht möglich. Bitte geben Sie mindestens fünf Zeichen ein
+  fi_bank_maintenance_mode:          Die Anwendung steht in einigen Minuten wieder zur Verfügung
+  fi_bic_is_required:                Die Angabe der BIC ist erforderlich
+  fi_blocked_card:                   Diese Karte wurde gesperrt. Die Daten sind nicht abrufbar
+  fi_blocked_chipcard:               Chipkarte gesperrt, kein Sm@rt-TAN plus möglich
+  fi_blz_user_mismatch:              Bankleitzahl passt nicht zum Benutzer
+  fi_call_your_bank_consultant:      Bitte wenden Sie sich an ihren Berater
+  fi_challenge_request_cancelled:    Eine Challenge-Anfrage wurde abgebrochen, der Auftrag wird nicht ausgeführt. UngültigeChallenge-Anforderung. Telefon für mobileTAN gesperrt. Bitte wenden Sie sich an Ihre Bank.”
+  fi_change_pin_for_activation:      Aus Sicherheitsgründen ist die Änderung Ihrer PIN für Freischaltung nötig
+  fi_change_pin:                     Aus Sicherheitsgründen ist die Änderung Ihrer PIN erforderlich
+  fi_check_legid_or_anmeldname:      Die Anmeldung war nicht möglich. Bitte prüfen Sie ihre eingegebene Legitimations-ID oder den Anmeldenamen
+  fi_contact_bank_manager:           Bitte wenden Sie sich an ihren Berater
+  fi_credit_card_not_found:          Es konnte keine Kreditkarte gefunden werden
+  fi_duplicate_transaction:          Auftrag wegen Doppeleinreichung abgelehnt
+  fi_email_address_not_unique:       Die angegebene E-Mail Adresse lässt sich nicht eindeutig zuordnen
+  fi_execution_date_postponed:       Der Ausführungstermin wurde auf den nächstmöglichen Buchungstag verschoben. Verarbeitung des Auftragsabgebrochen. Auftrag empfangen - Sicherheitsfreigabe erforderlich.”
+  fi_execution_date_scheduled_in_past: Mindestzeitraum bis zum Ausführungstermin überschritten
+  fi_failed_login:                   Verarbeitung nicht möglich. Die Anmeldung ist fehlgeschlagen. Bitte vergewissern Sie sich der Richtigkeit. Ihrer Eingaben und führen Sie den Anmeldevorgang erneut durch
+  fi_function_not_available_for_this_account: Die Funktion steht für das gewählte Konto nicht zur Verfügung
+  fi_function_not_available_try_again_later: Diese Funktion steht zur Zeit nicht zur Verfügung. Bitte versuchen Sie es zu einem späteren Zeitpunkt noch einmal
+  fi_hbci_maintenance_mode:          HBCI System in Wartung
+  fi_iban_recipient_invalid:         Die IBAN des Begünstigten\/Zahlungspfl. ist nicht zulässig
+  fi_insufficient_balance_please_check: Bitte prüfen Sie in den Kontoumsätzen Ihren aktuellen Saldo
+  fi_insufficient_balance:           Der Kontosaldo reicht für eine Buchung nicht aus
+  fi_invalid_bank_connection:        Die von Ihnen eingegebene Bankverbindung ist ungültig
+  fi_invalid_bic_or_iban_or_other_data: BIC, IBAN oder weitere Auftragsdaten ungültig
+  fi_invalid_charachters:            "Empfängername beinhaltet sondern Zeichen! Bitte geben Sie nur folgende Zeichen ein: Ziffern (0 - 9), Gross- und Kleinbuchstaben (A - Z,a – z), die Sonderzeichen Doppelpunkt ':', Fragezeichen '?', Komma ',', Minus '-', Leerzeichen ' ', Linke Klammer '(', Plus '+', Punkt '.', Rechte Klammer ')', Schrägstrich '/'. Umlaute und folgende Sonderzeichen 'ß', '&', '*', '$', '%' sind gültig, werden aber automatisch wie folgt konvertiert: Ä -> Ae, Ö -> Oe, Ü -> Ue, ä -> ae, ö -> oe, ü -> ue, ß -> ss, & -> +, * -> ., $ -> ., % ->."
+  fi_invalid_combination_iban_bic:   Die Kombination aus IBAN und BIC ist ungültig
+  fi_invalid_credentials_no_lowercase: Für die Onlinekennung sind Kleinbuchstaben nicht zulässig
+  fi_invalid_credentials:            Ihr Login war ungültig. Bitte prüfen Sie Kontonummer und PIN
+  fi_invalid_data_please_check:      Inhaltlich ungültiger Auftrag. Bitte prüfen sie ihre Eingaben auf Gültigkeit
+  fi_invalid_information:            Diese Information ist ungültig. Bitte überprüfen Sie Ihre Angaben und versuchen Sie es erneut
+  fi_invalid_login_pin_5:            Login fehlgeschlagen. Bitte geben Sie Ihre 5-stellige PIN an
+  fi_invalid_login:                  Leider konnte Ihre Anmeldung nicht erfolgreich durchgeführt werden. Bitte überprüfen Sie Ihre Anmeldedaten
+  fi_invalid_loginname_pin:          Anmeldename oder PIN ist falsch
+  fi_invalid_online_cred:            Online-Kennung oder Online-PIN ungültig. Bitte prüfen Sie, ob Sie evtl. die Fest
+  fi_invalid_pin_block2:             Falsche PIN. Sperrung nach weiteren 2 Fehlversuchen
+  fi_invalid_pin_tan:                PIN\/TAN Prüfung fehlgeschlagen
+  fi_invalid_sepa:                   SEPA-Nachrichtenformat ungültig
+  fi_invalid_signature:              Signatur (PIN oder TAN) fehlerhaft
+  fi_invalid_tan:                    TAN ungültig
+  fi_invalid_userid:                 Benutzerkennung ungültig. Bitte korrigieren Sie Ihre Zugangsdaten
+  fi_limit_exceeded_credit:          Verfügungsrahmen des Kontos überschritten
+  fi_limit_exceeded_day:             Auftrag führt zu Überschreitung des vereinbarten ZV-Tageslimits
+  fi_limit_exceeded:                 ”Limit überschritten.”
+  fi_login_again_only_10_digits_accountnumber_5_to_10_digits_pin: Anmeldung nur mit 10-stelliger Kontonummer und 5 bis 10-stelliger PIN möglich
+  fi_login_failed_change_pin_first:  Anmeldung fehlgeschlagen. Bitte führen Sie zunächst eine PIN-Änderung durch
+  fi_login_failed_check_bank_meldung: Anmeldung nicht erfolgreich. Bitte prüfen Sie Bank-Meldungen welche sich auf Ihrer Online-Bank-Seite befinden
+  fi_login_failed:                   Login fehlgeschlagen
+  fi_login_unsuccessful_try_later:   Anmeldung nicht erfolgreich. Bitte versuchen Sie es später noch mal
+  fi_login_with_vr_or_alias:         Anmeldung nur noch mit Alias oder VR-Kennung zulässig. Auftrag abgelehnt
+  fi_membernumber_between_8_to_10_digits_loginname_between_8_50: Geben Sie bitte 8 oder 10 Ziffern für Ihre Teilnehmernummer oder min. 8 bis max. 50 Zeichen für Ihren Anmeldenamen ein
+  fi_minimum_amount:                 Bitte beachten Sie den Mindestbetrag von 1 Euro
+  fi_missing_pin:                    PIN-Freischaltung erforderlich
+  fi_missing_tan_verfahren:          Sie haben kein TAN-Verfahren. Bitte rufen Sie die TAN-Verwaltung auf, um ein TAN-Verfahren einzurichten oder wenden sich an Ihren Berater
+  fi_no_active_mobilephone:          Keine aktive Mobilfunknr.Bitte wenden Sie sich an Ihren Berater
+  fi_no_active_security_function_commerzbank: Es gibt kein aktives Sicherheitsverfahren das verwendet werden kann um den Auftrag zu bestäetigen. Bitte besuchen Sie die online-Banking Webseite der Commerzbank und aktivieren Sie eines der Sicherheitsmedien
+  fi_no_creditcard_currently:        Der Auftrag wurde nicht ausgeführt. Kreditkarteninformationen stehen zur Zeit nicht zur Verfügung
+  fi_no_onlinebanking:               Auskünfte und Verfügungen über dieses Konto sind mit Onlinebanking nicht möglich
+  fi_no_valid_tan:                   Sie verfügen derzeit über keine gültigen TANs. Bitte fordern Sie bei Ihrer	Filiale einen neuen TAN-Brief an. Sollte Ihnen bereits ein neuer TAN-Brief vorliegen, so geben Sie diesen bitte im Online Banking unter Verwaltung frei
+  fi_not_a_workday:                  Das gewählte Datum ist kein Bankarbeitstag
+  fi_not_active_photo_tan:           Derzeit haben Sie kein aktiviertes photoTAN-Gerät. Bitte aktivieren Sie ein photoTAN-Gerät
+  fi_not_authorized:                 Benutzer für Kanal nicht bevollmächtigt
+  fi_one_step_tan_not_allowed:       Ein-Schritt-Verfahren nicht zulässig
+  fi_online_account_blocked:         Zugang zu den Online-Konten gesperrt
+  fi_online_banking_blocked:         Ihr Zugang zum Online Banking ist gesperrt. Bitte wenden Sie sich an Ihre Filiale
+  fi_online_banking_not_available:   Aufgrund von Wartungsarbeiten steht das Online Banking zurzeit leider nicht zur Verfügung
+  fi_order_accepted_tan_enable:      Auftrag entgegengenommen. Freigabe durch TAN erforderlich. Verarbeitung zur Zeit nicht möglich
+  fi_order_already_executed_today:   Auftrag abgelehnt, da dieser Auftrag heute bereits eingereicht wurde
+  fi_payment_only_reference_account: "Für Überweisungen ist nur das Referenzkonto gültig: IBAN {{.ACC}}"
+  fi_phototan_blocked_or_device_not_available: photoTAN Verfahren des Benutzers gesperrt oder kein aktives Gerät vorhanden
+  fi_phototan_still_not_available_call: Das photoTAN-Verfahren ist noch nicht nutzbar, da die Aktivierung nicht abgeschlossen ist. Bitte rufen Sie die TAN-Verwaltung auf und aktivieren die photoTAN mit dem Aktivierungsbrief, der kürzlich an Sie versandt wurde
+  fi_pin_5_digits_required:          Bitte geben Sie Ihre 5-stellige PIN an
+  fi_pin_between_5_to_8:             Geben Sie bitte min. 5 bis max. 8 Buchstaben bzw. Ziffern ein
+  fi_pin_blocked_unlock_with_tan:    Ihre PIN ist gesperrt. Mit korrekter PIN und TAN können Sie die Sperre aufheben
+  fi_pin_blocked:                    Ihre PIN ist gesperrt
+  fi_pin_must_be_changed_on_first_login: PIN muss wegen erstmaliger Anmeldung geändert werden
+  fi_pin_tan_system_not_available_try_again_later: Pin\/Tan-System nicht verfügbar! Bitte versuchen Sie es später noch einmal
+  fi_please_insert_valid_accountnumber: Bitte geben Sie eine gültige Kontonummer ein
+  fi_provided_data_is_wrong:         Die eingegebenen Daten sind fehlerhaft. Bitte korrigieren Sie Ihre Eingaben
+  fi_recipientname_max_27_chars:     Der Empfängername darf nicht länger als 27 Zeichen sein
+  fi_reference_number_doesnt_match_recipient_account: Das Konto des Begünstigten entspr. nicht der Referenzkontonummer
+  fi_search_not_available:           Für das angegebene Konto ist die Auftragsabfrage nicht verfügbar
+  fi_security_function_999_not_supported: Sicherheitsfunktion 999 wird nicht unterstützt
+  fi_service_unavailable_try_again_later: Der Dienst ist vorübergehend unterbrochen. Bitte versuchen Sie es später nochmals
+  fi_service_unavailable:            Aus technischen Gründen steht unser Bankenverfahren nicht zur Verfügung
+  fi_session_already_existing_try_again_later: Unter Ihrem Teilnehmer liegt bereits eine aktive Session vor. Bitte wiederholen Sie Ihre Anmeldung, um die bereits bestehende Session zu schließen
+  fi_session_timeout:                Ihre Session zum Server ist leider abgelaufen, der Auftrag konnte nicht abgeschlossen werden
+  fi_sync_tan_generator_with_system: Bitte synchronisieren Sie den TAN-Generator mit unserem System
+  fi_system_unavailable_fgw:         FGW System zur Zeit nicht verfügbar
+  fi_system_unavailable:             Das System steht nicht zur Verfuegung
+  fi_tan_blocked_invalid_challenge:  "*Sm@rt-TAN plus gesperrt. Eine Challenge-Anfrage wurde abgebrochen, der Auftrag wird nicht ausgeführt. Ungültige Challenge-Anforderung."
+  fi_tan_gesperrt:                   Ihre TAN ist gesperrt. Bitte wenden Sie sich an Ihre Bankfiliale
+  fi_tan_not_provided:               Es wurde keine TAN eingegeben, die Ausführung des Auftrags wurde abgebrochen
+  fi_tan_six_points_required:        TAN zur kurz. 6 Stellen sind erforderlich
+  fi_tan_six_points_required2:       Bitte geben Sie die 6-stellige indizierte TAN aus Ihrer TAN-Liste ein
+  fi_terminuberweisung_error:        Berechtigung reicht zur Ausfuehrung des Auftrags nicht aus. Terminueberweisung-Auftragstyp ohne {{.ACC}} nicht zulaessig
+  fi_too_far_in_the_future:          Das übergebene Ausführungsdatum liegt nach dem spätest möglichen Termin
+  fi_too_many_failed_attempts:       Auftrag abgelehnt - zuviele Fehlversuche (weiterer Zugang verweigert)
+  fi_try_again_postbank:             Sollte der Fehler erneut auftreten, nehmen Sie bitte Kontakt zur Postbank auf
+  fi_unknown_auftrag:                Auftrag konnte nicht verarbeitet werden. Auftrag abgelehnt
+  fi_unknown_auftrag2:               Der Auftrag wurde nicht ausgeführt
+  fi_unknown_auftrag3:               Übertragung des Auftrags zum/vom Verarbeitungssystem fehlgeschlagen
+  fi_unknown_bank:                   Unbekanntes Kreditinstitut
+  fi_unknown_credit_card_number:     Kreditkartennummer ist unbekannt
+  fi_unknown_forwarded:              "{{.MSG}}"
+  fi_unknown_gespert:                Zugang gesperrt
+  fi_unknown_nicht_komplete:         Nachricht ist komplett nicht bearbeitet; Verarbeitung nicht möglich; Dialog abgebrochen
+  fi_unknown_try_again_later:        Es ist ein technisches Problem aufgetreten. Bitte versuchen Sie es später erneut
+  fi_unknown_user:                   Unbekannter Benutzer
+  fi_unknown_userid:                 Benutzerkennung unbekannt. Bitte richtige Benutzerkennung eingeben
+  fi_unknown_userident:              Benutzeridentifikation nicht vorhanden
+  fi_unknown_verarbeitung:           Verarbeitung nicht möglich
+  fi_unknown:                        Ungültige Auftragsnachricht
+  fi_user_for_client_not_authorized: Benutzer für Kunden nicht bevollmächtigt
+  fi_wrong_accessnumber_pin:         Zugangsnummer oder PIN falsch
+  fi_wrong_accountnumber_pin:        Die eingegebene Kontonummer oder PIN ist falsch
+  fi_wrong_blz:                      Ungültige Bankleitzahl
+  fi_wrong_client_data:              Ungültige Auftraggeberkontoverbindung
+  fi_wrong_email_password:           Die Nachricht konnte nicht ausgeführt werden. Anmeldung fehlgeschlagen, Ihre E-Mail/Passwort-Kombination ist falsch!
+  fi_wrong_iban:                     Ungültige IBAN
+  fi_wrong_mobiletan:                Die mobileTAN ist nicht korrekt. Bitte reichen Sie Ihren Auftrag erneut ein
+  fi_wrong_pin_3_times:              PIN wurde 3 Mal falsch eingegeben
+  fi_wrong_pin_access_blocked:       PIN falsch. Zugang gesperrt
+  fi_wrong_pin_must_be_at_least_6_digits: "Ungueltige Auftragsnachricht: PIN hat weniger als 6 Stellen."
+  fi_wrong_pin_not_numeric:          "Ungueltige Auftragsnachricht: PIN nicht numerisch"
+  fi_wrong_pin_too_long:             Die PIN ist länger als erlaubt
+  fi_wrong_pin:                      PIN ungültig. Bitte richtige PIN eingeben
+  fi_wrong_recipient_bic:            Empfänger-BIC fehlerhaft
+  fi_wrong_tan_authentication_presenter_missing: Authentifizierung des Einreichers fehlt - Falsche TAN
+  fi_wrong_tan:                      Die eingegebene TAN ist falsch
+  fi_wrong_username_or_password:     Benutzernamen oder Passwort ungültig
+  appid_invalid:                     Invalid application id
+  auth_failed:                       Authentication failed
+  authentication_failed:             Authentication failed
+  change_password_same_value:        Please choose a password different from the current password
+  contact_problem:                   Invalid recipient account information
+  current_password_incorrect:        Current password incorrect
+  delete_access_authentication_failed: Incorrect password
+  delete_account_authentication_failed: Incorrect password
+  developer_login_invalid:           Invalid developer credentials
+  developer_token_invalid:           Invalid developer token
+  email_blank:                       Please enter your email address
+  email_invalid:                     Invalid email address
+  email_taken_login:                 Email address associated with another user account
+  email_taken_reset_password:        Email address associated with another user account
+  email_taken:                       Email address associated with another user account
+  general_error:                     Sorry, something went wrong
+  incorrect_firef:                   Incorrect financial provider id, expected format {country}-{institution}-{id}
+  invalid_contact_iban:              Invalid IBAN
+  invalid_pattern:                   Incorrect security pattern
+  invalid_second_password:           The security pattern entered is not correct. Please try again
+  invalid_to_iban:                   The IBAN provided for the recipient is invalid. Please check the IBAN and try again
+  job_in_progress:                   Please try again in a couple of minutes
+  login_invalid:                     Invalid user credentials
+  missing_parameters:                Missing Parameters
+  not_found:                         Resource not found
+  parse_error:                       Unable to parse your request
+  password_blank:                    Please enter a password
+  password_can_not_be_changed:       Password can not be changed
+  password_changed:                  Password changed
+  password_too_simple:               Please choose a more secure password
+  public_key_invalid:                Public key invalid
+  resource_create_error:             Unable to create resource/s
+  resource_delete_error:             Unable to delete resource
+  resource_get_error:                Unable to fetch resource/s
+  resource_process_error:            Unable to process resource/s request
+  second_layer_authentication_failed: Invalid second layer authentication
+  second_layer_timeout:              Second layer timeout
+  second_password_can_not_be_created: Second password can not be created
+  secret_too_simple:                 This password does not meet the necessary security requirements
+  token_invalid:                     For security reasons, please log in again using your email address and Centralway Numbrs password
+  user_login_invalid:                Please check that your credentials are correct and try again
+  user_name_blank:                   Please enter a user name
+  user_name_taken:                   Username already taken, please use another one
+  user_token_invalid:                Invalid user token. Please log in again
