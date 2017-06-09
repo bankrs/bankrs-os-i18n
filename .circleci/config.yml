@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ruby:2.4
+    working_directory: ~/bankrs-os-i18n
+    steps:
+      - checkout
+      - run: bundle install
+      - run: bundle exec rake spec
