@@ -1,5 +1,5 @@
 # Contributing guide
-Want to contribute to bankrs-ios-exmaple? Awesome!
+Want to contribute to bankrs-os-i18n? Awesome!
 There are many ways you can contribute, see below.
 
 ## Opening issues
