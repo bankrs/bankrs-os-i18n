@@ -1,6 +1,7 @@
 errors:
   connector_access_already_exists:   Bank access already added
   connector_account_does_not_support_account_balance_request: The bank access you are trying to add has no supported bank accounts at this time
+  connector_cant_be_empty:           Please complete all fields in the form
   connector_could_not_connect:       Your bank is not responding at the moment. Please try again later or contact support if the problem persists
   connector_field_reset:             The PIN authentication was unfortunately incorrect. Please enter your online banking PIN again
   connector_internal:                Unable to process request

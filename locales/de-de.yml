@@ -1,6 +1,7 @@
 errors:
   connector_access_already_exists:   Dieser Bankzugang existiert bereits
   connector_account_does_not_support_account_balance_request: Der Bankzugang enthält momentan keine unterstützten Bankkonten
+  connector_cant_be_empty:           Alle Formularfelder werden benötigt
   connector_could_not_connect:       Keine Antwort der Bank erhalten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie den Kundendienst, falls das Problem weiter besteht
   connector_field_reset:             Die Authentifizierung mit PIN war nicht erfolgreich. Bitte geben Sie Ihre Online-Banking PIN erneut ein
   connector_internal:                Fehler bei der Bearbeitung der Anfrage
