@@ -1,15 +1,15 @@
 errors:
-  connector_access_already_exists:   Bank access already added
-  connector_account_does_not_support_account_balance_request: The bank access you are trying to add has no supported bank accounts at this time
-  connector_cant_be_empty:           Please complete all fields in the form
-  connector_could_not_connect:       Your bank is not responding at the moment. Please try again later or contact support if the problem persists
-  connector_field_reset:             The PIN authentication was unfortunately incorrect. Please enter your online banking PIN again
-  connector_internal:                Unable to process request
-  connector_no_tan_method_available: Your bank did not provide any supported TAN method for this transaction. Please log into your online banking and ensure that you have TAN methods set up. \n\nIf the problem persists, please contact our support team
-  connector_sepa_abroad_not_allowed: Due to restrictions by your bank no international transactions can be made from this bank account
-  connector_ssl_certificate_is_not_valid: Your bank is currently experiencing technical difficulties. Please try again later
-  connector_statement_request_not_available: This bank account does not support the operation
-  connector_unknown:                 Unable to process request
+  connector_access_already_exists:   Dieser Bankzugang existiert bereits
+  connector_account_does_not_support_account_balance_request: Der Bankzugang enthält momentan keine unterstützten Bankkonten
+  connector_cant_be_empty:           Alle Formularfelder werden benötigt
+  connector_could_not_connect:       Keine Antwort der Bank erhalten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie den Kundendienst, falls das Problem weiter besteht
+  connector_field_reset:             Die Authentifizierung mit PIN war nicht erfolgreich. Bitte geben Sie Ihre Online-Banking PIN erneut ein
+  connector_internal:                Fehler bei der Bearbeitung der Anfrage
+  connector_no_tan_method_available: Die Bank bietet kein unterstütztes TAN-Verfahren für diese Transaktion an. Bitte melden Sie sich in Ihrem Online-Banking an und stellen Sie sicher, dass sie das entsprechende TAN-Verfahren eingerichtet haben.\n\nFalls das Problem weiter besteht, nehmen Sie bitte Kontakt mit unserem Kundendienst auf
+  connector_sepa_abroad_not_allowed: Aufgrund von Beschränkungen der Bank können von diesem Konto keine internationalen Zahlungen vorgenommen werden
+  connector_ssl_certificate_is_not_valid: Es liegt ein technisches Problem bei Ihrer Bank vor. Bitte versuchen Sie es später noch einmal
+  connector_statement_request_not_available: Dieses Konto unterstützt diese Operation nicht
+  connector_unknown:                 Fehler bei der Bearbeitung der Anfrage
   fi_account_blocked_gv:             Vorläufige Sperre liegt vor. Entsperren mit GV 'PIN-Sperre aufheben' möglich
   fi_account_blocked_signature:      "Der Online Service ist gesperrt. Bitte wenden Sie sich an Ihre Bank. Ungültige Auftragsnachricht: Ungültige Signatur."
   fi_account_blocked_tan_enable:     Zugang gesperrt. Freischaltung mit TAN erforderlich
@@ -22,7 +22,7 @@ errors:
   fi_activate_new_tan_list:          Für Sie wurde eine neue TAN-Liste erstellt
   fi_active_tan_list_telebanking_pin: "Aktivierung Ihrer TAN-Liste: 069 / 34 22 24 (nur mit Telebanking PIN). (9010)"
   fi_amount_over_limit_increase_finanzsoftware: Betrag über Limit. Erhöhen Sie im Internetbanking das \"Limit für Finanzsoftware\"
-  fi_amount_too_high:                Leider können wir die Ueberweisung in dieser Höhe nicht annehmen
+  fi_amount_too_high:                Leider können wir die Überweisung in dieser Höhe nicht annehmen
   fi_at_least_5:                     Verarbeitung nicht möglich. Bitte geben Sie mindestens fünf Zeichen ein
   fi_bank_maintenance_mode:          Die Anwendung steht in einigen Minuten wieder zur Verfügung
   fi_bic_is_required:                Die Angabe der BIC ist erforderlich
@@ -155,47 +155,48 @@ errors:
   fi_wrong_tan_authentication_presenter_missing: Authentifizierung des Einreichers fehlt - Falsche TAN
   fi_wrong_tan:                      Die eingegebene TAN ist falsch
   fi_wrong_username_or_password:     Benutzernamen oder Passwort ungültig
-  appid_invalid:                     Invalid application id
-  auth_failed:                       Authentication failed
-  authentication_failed:             Authentication failed
-  change_password_same_value:        Please choose a password different from the current password
-  contact_problem:                   Invalid recipient account information
-  current_password_incorrect:        Current password incorrect
-  delete_access_authentication_failed: Incorrect password
-  delete_account_authentication_failed: Incorrect password
-  developer_login_invalid:           Invalid developer credentials
-  developer_token_invalid:           Invalid developer token
-  email_blank:                       Please enter your email address
-  email_invalid:                     Invalid email address
-  email_taken_login:                 Email address associated with another user account
-  email_taken_reset_password:        Email address associated with another user account
-  email_taken:                       Email address associated with another user account
-  general_error:                     Sorry, something went wrong
-  incorrect_firef:                   Incorrect financial provider id, expected format {country}-{institution}-{id}
-  invalid_contact_iban:              Invalid IBAN
-  invalid_pattern:                   Incorrect security pattern
-  invalid_second_password:           The security pattern entered is not correct. Please try again
-  invalid_to_iban:                   The IBAN provided for the recipient is invalid. Please check the IBAN and try again
-  job_in_progress:                   Please try again in a couple of minutes
-  login_invalid:                     Invalid user credentials
-  missing_parameters:                Missing Parameters
-  not_found:                         Resource not found
-  parse_error:                       Unable to parse your request
-  password_blank:                    Please enter a password
-  password_can_not_be_changed:       Password can not be changed
-  password_changed:                  Password changed
-  password_too_simple:               Please choose a more secure password
-  public_key_invalid:                Public key invalid
-  resource_create_error:             Unable to create resource/s
-  resource_delete_error:             Unable to delete resource
-  resource_get_error:                Unable to fetch resource/s
-  resource_process_error:            Unable to process resource/s request
-  second_layer_authentication_failed: Invalid second layer authentication
-  second_layer_timeout:              Second layer timeout
-  second_password_can_not_be_created: Second password can not be created
-  secret_too_simple:                 This password does not meet the necessary security requirements
-  token_invalid:                     For security reasons, please log in again using your email address and Centralway Numbrs password
-  user_login_invalid:                Please check that your credentials are correct and try again
-  user_name_blank:                   Please enter a user name
-  user_name_taken:                   Username already taken, please use another one
-  user_token_invalid:                Invalid user token. Please log in again
+  appid_invalid:                     Ungültige Anwendungs-ID
+  auth_failed:                       Anmeldung fehlgeschlagen
+  authentication_failed:             Anmeldung fehlgeschlagen
+  change_password_same_value:        Bitte wählen Sie ein neues Passwort das nicht identisch zu Ihrem alten Passwort ist
+  contact_problem:                   Ungültige Kontodaten des Empfängers
+  current_password_incorrect:        Passwort ungültig
+  delete_access_authentication_failed: Ungültige Zugangsdaten
+  delete_account_authentication_failed: Ungültige Zugangsdaten
+  developer_login_invalid:           Ungültige Entwickler-Zugangsdaten
+  developer_token_invalid:           Ungültiges Entwickler-Token
+  email_blank:                       Bitte geben Sie Ihre E-Mail Adresse ein
+  email_invalid:                     Ungültige E-Mail Adresse
+  email_taken_login:                 Diese E-Mail Adresse ist mit einem anderen Benutzerkonto verknüpft
+  email_taken_reset_password:        Diese E-Mail Adresse ist mit einem anderen Benutzerkonto verknüpft
+  email_taken:                       Diese E-Mail Adresse ist mit einem anderen Benutzerkonto verknüpft
+  general_error:                     Entschuldigung, etwas ist schief gegangen
+  incorrect_firef:                   Ungültige Provider ID, erwartetes Format {country}-{institution}-{id}
+  invalid_contact_iban:              Ungültige IBAN
+  invalid_pattern:                   Ungültiges Muster
+  invalid_second_password:           Das eingegebene Muster ist nicht korrekt. Bitte versuchen Sie es erneut
+  invalid_to_iban:                   Die Empfänger-IBAN ist ungültig. Bitte prüfen Sie die IBAN und versuchen es erneut
+  job_in_progress:                   Bitte versuchen Sie es in wenigen Minuten erneut
+  login_invalid:                     Ungültige Zugangsdaten
+  missing_parameters:                Fehlende Parameter
+  missing_value_for_mandatory_field: Das Feld {field_key} wird benötigt und darf nicht leer sein
+  not_found:                         Ressource nicht gefunden
+  parse_error:                       Anfrage konnte nicht gelesen werden
+  password_blank:                    Bitte geben Sie ein Passwort ein
+  password_can_not_be_changed:       Passwort kann nicht geändert werden
+  password_changed:                  Passwort geändert
+  password_too_simple:               Bitte wählen Sie ein sichereres Passwort
+  public_key_invalid:                Ungültiger öffentlicher Schlüssel
+  resource_create_error:             Fehler beim Erstellen der Ressource(n)
+  resource_delete_error:             Fehler beim Löschen der Ressource(n)
+  resource_get_error:                Fehler beim Lesen der Ressource(n)
+  resource_process_error:            Fehler beim Bearbeiten der Anfrage
+  second_layer_authentication_failed: Ungültiges zweites Authentifizierungsmerkmal
+  second_layer_timeout:              Zeitüberschreitung für das zweite Authentifizierungsmerkmal
+  second_password_can_not_be_created: Das zweite Passwort kann nicht erstellt werden
+  secret_too_simple:                 Dieses Passwort erfüllt nicht die Anforderungen und ist zu einfach
+  token_invalid:                     Bitte melden Sie sich aus Sicherheitsgründen neu an
+  user_login_invalid:                Bitte überprüfen Sie Ihre Zugangsdaten und versuchen Sie es erneut
+  user_name_blank:                   Bitte geben Sie einen Benutzernamen ein
+  user_name_taken:                   Der Benutzername ist bereits vergeben, bitte wählen Sie einen anderen
+  user_token_invalid:                Token abgelaufen, bitte melden Sie sich neu an

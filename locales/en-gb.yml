@@ -179,6 +179,7 @@ errors:
   job_in_progress:                   Please try again in a couple of minutes
   login_invalid:                     Invalid user credentials
   missing_parameters:                Missing Parameters
+  missing_value_for_mandatory_field: Field {field_key} is mandatory and its value can't be empty
   not_found:                         Resource not found
   parse_error:                       Unable to parse your request
   password_blank:                    Please enter a password

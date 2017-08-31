@@ -178,6 +178,7 @@ invalid_to_iban
 job_in_progress
 login_invalid
 missing_parameters
+missing_value_for_mandatory_field
 not_found
 parse_error
 password_blank
