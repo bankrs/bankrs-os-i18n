@@ -201,3 +201,4 @@ user_login_invalid
 user_name_blank
 user_name_taken
 user_token_invalid
+unsupported_provider

@@ -202,3 +202,4 @@ errors:
   user_name_blank:                   Please enter a user name
   user_name_taken:                   Username already taken, please use another one
   user_token_invalid:                Invalid user token. Please log in again
+  unsupported_provider:              Provider is not supported.
