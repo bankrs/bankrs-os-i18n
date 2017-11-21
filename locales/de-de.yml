@@ -188,7 +188,7 @@ errors:
   password_changed:                  Passwort geändert
   password_too_simple:               Bitte wählen Sie ein sichereres Passwort
   public_key_invalid:                Ungültiger öffentlicher Schlüssel
-  resource_conflict_error:           Ressource im Konflikt mit einem anderen
+  resource_conflict_error:           Ressource steht im Konflikt mit einer anderen
   resource_create_error:             Fehler beim Erstellen der Ressource(n)
   resource_delete_error:             Fehler beim Löschen der Ressource(n)
   resource_get_error:                Fehler beim Lesen der Ressource(n)
