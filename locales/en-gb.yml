@@ -177,6 +177,7 @@ errors:
   invalid_second_password:           The security pattern entered is not correct. Please try again
   invalid_to_iban:                   The IBAN provided for the recipient is invalid. Please check the IBAN and try again
   job_in_progress:                   Please try again in a couple of minutes
+  job_not_started:                   Job was unable to start
   login_invalid:                     Invalid user credentials
   missing_parameters:                Missing Parameters
   missing_value_for_mandatory_field: Field {field_key} is mandatory and its value can't be empty
@@ -187,6 +188,7 @@ errors:
   password_changed:                  Password changed
   password_too_simple:               Please choose a more secure password
   public_key_invalid:                Public key invalid
+  resource_conflict_error:           Resource conflicted with another
   resource_create_error:             Unable to create resource/s
   resource_delete_error:             Unable to delete resource
   resource_get_error:                Unable to fetch resource/s
