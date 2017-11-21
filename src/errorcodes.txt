@@ -176,6 +176,7 @@ invalid_pattern
 invalid_second_password
 invalid_to_iban
 job_in_progress
+job_not_started
 login_invalid
 missing_parameters
 missing_value_for_mandatory_field
@@ -186,6 +187,7 @@ password_can_not_be_changed
 password_changed
 password_too_simple
 public_key_invalid
+resource_conflict_error
 resource_create_error
 resource_delete_error
 resource_get_error

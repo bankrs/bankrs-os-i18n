@@ -177,6 +177,7 @@ errors:
   invalid_second_password:           Das eingegebene Muster ist nicht korrekt. Bitte versuchen Sie es erneut
   invalid_to_iban:                   Die Empfänger-IBAN ist ungültig. Bitte prüfen Sie die IBAN und versuchen es erneut
   job_in_progress:                   Bitte versuchen Sie es in wenigen Minuten erneut
+  job_not_started:                   Job konnte nicht starten
   login_invalid:                     Ungültige Zugangsdaten
   missing_parameters:                Fehlende Parameter
   missing_value_for_mandatory_field: Das Feld {field_key} wird benötigt und darf nicht leer sein
@@ -187,6 +188,7 @@ errors:
   password_changed:                  Passwort geändert
   password_too_simple:               Bitte wählen Sie ein sichereres Passwort
   public_key_invalid:                Ungültiger öffentlicher Schlüssel
+  resource_conflict_error:           Ressource steht im Konflikt mit einer anderen
   resource_create_error:             Fehler beim Erstellen der Ressource(n)
   resource_delete_error:             Fehler beim Löschen der Ressource(n)
   resource_get_error:                Fehler beim Lesen der Ressource(n)
