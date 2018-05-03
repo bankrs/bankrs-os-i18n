@@ -16,11 +16,13 @@ errors:
   fi_account_blocked_tan_enable:     Zugang gesperrt. Freischaltung mit TAN erforderlich
   fi_account_blocked_tel_ing_diba:   "Zugang ist gesperrt. Tel. Entsperrung: 069 / 34 22 24 (nur mit Telebanking PIN)."
   fi_account_blocked:                Ihr Zugang ist gesperrt. Bitte informieren Sie Ihren Berater
-  fi_account_deactivated:            Dieser Account ist deaktiviert
+  fi_account_deactivated:            This account is deactivated
+  fi_account_no_permission:          No permission for this account
   fi_accountnumber_10_digits_pin_between_5_to_10: Anmeldung nur mit 10-stelliger Kontonummer und 5 bis 10-stelliger PIN möglich
   fi_accountnumber_must_10:          Die Kontonummer muss immer 10-stellig eingegeben werden
   fi_activate_mobile_tan:            Das mobileTAN-Verfahren ist noch nicht nutzbar, da die Aktivierung nicht abgeschlossen ist. Bitte aktivieren Sie das mobileTAN-Verfahren in der TAN-Verwaltung. Der zur Aktivierung benötigte Aktivierungsbrief wurde Ihnen kürzlich zugesandt bzw. befindet sich gerade auf dem Postweg
   fi_activate_new_tan_list:          Für Sie wurde eine neue TAN-Liste erstellt
+  fi_activate_push_tan:              Das pushTAN-Verfahren ist noch nicht nutzbar, da die Aktivierung nicht abgeschlossen ist. Bitte aktivieren Sie das pushTAN-Verfahren in der TAN-Verwaltung. Der zur Aktivierung benötigte Aktivierungsbrief wurde Ihnen kürzlich zugesandt bzw. befindet sich gerade auf dem Postweg
   fi_active_tan_list_telebanking_pin: "Aktivierung Ihrer TAN-Liste: 069 / 34 22 24 (nur mit Telebanking PIN). (9010)"
   fi_amount_over_limit_increase_finanzsoftware: Betrag über Limit. Erhöhen Sie im Internetbanking das \"Limit für Finanzsoftware\"
   fi_amount_too_high:                Leider können wir die Ueberweisung in dieser Höhe nicht annehmen
@@ -79,7 +81,8 @@ errors:
   fi_minimum_amount:                 Bitte beachten Sie den Mindestbetrag von 1 Euro
   fi_missing_pin:                    PIN-Freischaltung erforderlich
   fi_missing_tan_verfahren:          Sie haben kein TAN-Verfahren. Bitte rufen Sie die TAN-Verwaltung auf, um ein TAN-Verfahren einzurichten oder wenden sich an Ihren Berater
-  fi_no_active_mobilephone:          Keine aktive Mobilfunknr.Bitte wenden Sie sich an Ihren Berater
+  fi_mobiletan_deactivated:          Das mobileTAN-Verfahren ist deaktiviert
+  fi_no_active_mobilephone:          Keine aktive Mobilfunknr. Bitte wenden Sie sich an Ihren Berater
   fi_no_active_security_function_commerzbank: Es gibt kein aktives Sicherheitsverfahren das verwendet werden kann um den Auftrag zu bestäetigen. Bitte besuchen Sie die online-Banking Webseite der Commerzbank und aktivieren Sie eines der Sicherheitsmedien
   fi_no_creditcard_currently:        Der Auftrag wurde nicht ausgeführt. Kreditkarteninformationen stehen zur Zeit nicht zur Verfügung
   fi_no_onlinebanking:               Auskünfte und Verfügungen über dieses Konto sind mit Onlinebanking nicht möglich

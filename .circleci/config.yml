@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: ruby:2.4
+      - image: ruby:2.5.1-alpine3.7
     working_directory: ~/bankrs-os-i18n
     steps:
       - checkout
