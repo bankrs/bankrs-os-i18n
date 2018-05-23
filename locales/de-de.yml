@@ -41,6 +41,7 @@ errors:
   fi_credit_card_not_found:          Es konnte keine Kreditkarte gefunden werden
   fi_duplicate_transaction:          Auftrag wegen Doppeleinreichung abgelehnt
   fi_email_address_not_unique:       Die angegebene E-Mail Adresse lässt sich nicht eindeutig zuordnen
+  fi_entry_date_must_be_after_today: Das Datum Beginn muss grösser sein als das Tagesdatum
   fi_execution_date_postponed:       Der Ausführungstermin wurde auf den nächstmöglichen Buchungstag verschoben. Verarbeitung des Auftragsabgebrochen. Auftrag empfangen - Sicherheitsfreigabe erforderlich.”
   fi_execution_date_scheduled_in_past: Mindestzeitraum bis zum Ausführungstermin überschritten
   fi_failed_login:                   Verarbeitung nicht möglich. Die Anmeldung ist fehlgeschlagen. Bitte vergewissern Sie sich der Richtigkeit. Ihrer Eingaben und führen Sie den Anmeldevorgang erneut durch
@@ -141,6 +142,7 @@ errors:
   fi_unknown_userident:              Benutzeridentifikation nicht vorhanden
   fi_unknown_verarbeitung:           Verarbeitung nicht möglich
   fi_unknown:                        Ungültige Auftragsnachricht
+  fi_unsupported_tan_method:         Ihr TAN-Verfahren wird nicht unterstützt
   fi_user_for_client_not_authorized: Benutzer für Kunden nicht bevollmächtigt
   fi_wrong_accessnumber_pin:         Zugangsnummer oder PIN falsch
   fi_wrong_accountnumber_pin:        Die eingegebene Kontonummer oder PIN ist falsch

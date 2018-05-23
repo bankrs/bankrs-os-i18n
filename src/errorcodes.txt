@@ -40,6 +40,7 @@ fi_contact_bank_manager
 fi_credit_card_not_found
 fi_duplicate_transaction
 fi_email_address_not_unique
+fi_entry_date_must_be_after_today
 fi_execution_date_postponed
 fi_execution_date_scheduled_in_past
 fi_failed_login
@@ -140,6 +141,7 @@ fi_unknown_userid
 fi_unknown_userident
 fi_unknown_verarbeitung
 fi_unknown
+fi_unsupported_tan_method
 fi_user_for_client_not_authorized
 fi_wrong_accessnumber_pin
 fi_wrong_accountnumber_pin
