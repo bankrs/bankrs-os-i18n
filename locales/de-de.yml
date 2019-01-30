@@ -209,3 +209,5 @@ errors:
   user_name_taken:                   Der Benutzername ist bereits vergeben, bitte wählen Sie einen anderen
   user_token_invalid:                Token abgelaufen, bitte melden Sie sich neu an
   unsupported_provider:              Anbieter wird nicht unterstützt
+  unsupported_operation:             Diese Funktion wird vom Anbieter nicht unterstützt
+
