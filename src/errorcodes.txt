@@ -17,6 +17,7 @@ fi_account_blocked_tel_ing_diba
 fi_account_blocked
 fi_account_deactivated
 fi_account_no_permission
+fi_account_temporarily_blocked
 fi_accountnumber_10_digits_pin_between_5_to_10
 fi_accountnumber_must_10
 fi_activate_mobile_tan

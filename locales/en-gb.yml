@@ -18,6 +18,7 @@ errors:
   fi_account_blocked:                Ihr Zugang ist gesperrt. Bitte informieren Sie Ihren Berater
   fi_account_deactivated:            This account is deactivated
   fi_account_no_permission:          No permission for this account
+  fi_account_temporarily_blocked:    Your access is temporarily suspended.
   fi_accountnumber_10_digits_pin_between_5_to_10: Anmeldung nur mit 10-stelliger Kontonummer und 5 bis 10-stelliger PIN möglich
   fi_accountnumber_must_10:          Die Kontonummer muss immer 10-stellig eingegeben werden
   fi_activate_mobile_tan:            Das mobileTAN-Verfahren ist noch nicht nutzbar, da die Aktivierung nicht abgeschlossen ist. Bitte aktivieren Sie das mobileTAN-Verfahren in der TAN-Verwaltung. Der zur Aktivierung benötigte Aktivierungsbrief wurde Ihnen kürzlich zugesandt bzw. befindet sich gerade auf dem Postweg
