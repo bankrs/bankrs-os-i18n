@@ -41,6 +41,7 @@ errors:
   fi_credit_card_not_found:          Es konnte keine Kreditkarte gefunden werden
   fi_duplicate_transaction:          Auftrag wegen Doppeleinreichung abgelehnt
   fi_email_address_not_unique:       Die angegebene E-Mail Adresse lässt sich nicht eindeutig zuordnen
+  fi_enable_mobile_tan:              Please activate the mobileTAN system
   fi_entry_date_must_be_after_today: The entry date must be after today
   fi_execution_date_postponed:       Der Ausführungstermin wurde auf den nächstmöglichen Buchungstag verschoben. Verarbeitung des Auftragsabgebrochen. Auftrag empfangen - Sicherheitsfreigabe erforderlich.”
   fi_execution_date_scheduled_in_past: Mindestzeitraum bis zum Ausführungstermin überschritten

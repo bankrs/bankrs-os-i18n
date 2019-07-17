@@ -40,6 +40,7 @@ fi_contact_bank_manager
 fi_credit_card_not_found
 fi_duplicate_transaction
 fi_email_address_not_unique
+fi_enable_mobile_tan
 fi_entry_date_must_be_after_today
 fi_execution_date_postponed
 fi_execution_date_scheduled_in_past
